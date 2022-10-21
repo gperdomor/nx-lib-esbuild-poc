@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@poc/lib1": ["packages/lib1/src/index.ts"],
-      "@poc/lib2": ["packages/lib2/src/index.ts"]
+      "@poc/lib2": ["packages/lib2/src/index.ts"],
+      "@poc/lib3": ["packages/lib3/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -1,3 +1,4 @@
-export function lib2(): string {
-  return 'lib2';
+export function getOutput(): string {
+  const output = process.env['MESSAGE'] || '';
+  return output;
 }
